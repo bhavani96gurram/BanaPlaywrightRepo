@@ -61,7 +61,7 @@ test('mouseclick', async ({ page }) => {
 
 })
 
-test.only('draganddrop', async({page})=>{
+test('draganddrop', async({page})=>{
 await page.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html")
 
 const source = await page.locator("//div[@id='draggable']")

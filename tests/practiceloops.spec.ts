@@ -2,17 +2,17 @@ import{test, expect} from "@playwright/test"
 
 test('loops', async({page})=>{
 
-// ********* even/odd ***************
-// const i = 11
+//********* even/odd ***************
+const i = 11
 
-// if (i%2==0){
+if (i%2==0){
 
-//     console.log('even number')
-// }
-// else {
+    console.log('even number')
+}
+else {
 
-//     console.log('odd number')
-// }
+    console.log('odd number')
+}
 
 // //********** * vote expample *************
 // let a=25
